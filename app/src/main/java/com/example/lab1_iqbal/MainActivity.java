@@ -20,13 +20,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Link XML with Java
+       
         tvMessage = findViewById(R.id.textView);
         etName = findViewById(R.id.editText);
         submitButton = findViewById(R.id.button);
     }
 
-    // Button click function (make sure XML has android:onClick="displayText")
+   
     public void displayText(View view) {
 
         String name = etName.getText().toString().trim();
